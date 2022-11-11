@@ -18,6 +18,12 @@
         type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <script type="text/javascript">
+        // 안드로이드 우측 버튼 비활성
+        $(document).bind("contextmenu", function (e) {
+            return false;
+        });
+    </script>
 </head>
 
 <body id="page-top">
