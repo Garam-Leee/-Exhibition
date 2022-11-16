@@ -1397,7 +1397,7 @@ progress {
 
   .row-cols-lg-3 > * {
     flex: 0 0 auto;
-    width: 33.3333333333%;
+ 
   }
 
   .row-cols-lg-4 > * {
@@ -1437,7 +1437,6 @@ progress {
 
   .col-lg-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
   }
 
   .col-lg-5 {
